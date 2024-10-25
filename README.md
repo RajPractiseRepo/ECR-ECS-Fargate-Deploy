@@ -7,6 +7,12 @@ Automate deployment of a Node.js Application on Serverless AWS ECS fargate with 
 3. To give access to ECR to EC2 Instance we will use IAM(Identity Access Management) service. We will give access of ECR full access, for that we have to create a user and make a policy for that. 
 4. After Giving access we can push the docker image on ECR. and from there we can run our Image on ECS(Elastic Container Service) using Fargate. 
 5. And from Cloudwatch we can access the logs of the Application.
+##############################################################################################################################
+
+# ✅Project Workflow:
+
+![1702490266715](https://github.com/user-attachments/assets/041ab89f-db8f-43ff-9e32-3c5dd15a95f2)
+
 
 
 ✅ Steps:
