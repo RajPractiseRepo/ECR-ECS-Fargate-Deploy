@@ -1,19 +1,27 @@
 ![6244128f-414a-4707-84b3-3eaee6906241](https://github.com/user-attachments/assets/cd26a812-6bde-477b-83ac-cd2e92c8da5e)
 
 # ✅Project OverView:
-Automate deployment of a Node.js Application on Serverless AWS ECS fargate with the image repository on ECR and the cloudwatch integrated with proper IAM roles and configuration. 
+Automate deployment of an Application on Serverless AWS ECS fargate with the image repository on ECR and the cloudwatch integrated with proper IAM roles and configuration. 
 1. In the Above Cover Image First, we will bring our application code from Github to the EC2 Instance of AWS. 
 2. Now, We have to make a docker image of the Application and Push that on ECR(Elastic Container Registry) Services it is used to store docker images, so your EC2 instance must have access to ECR. 
 3. To give access to ECR to EC2 Instance we will use IAM(Identity Access Management) service. We will give access of ECR full access, for that we have to create a user and make a policy for that. 
 4. After Giving access we can push the docker image on ECR. and from there we can run our Image on ECS(Elastic Container Service) using Fargate. 
 5. And from Cloudwatch we can access the logs of the Application.
-##############################################################################################################################
+#######################################################################################################
 
 # ✅Project Workflow:
 
 ![1702490266715](https://github.com/user-attachments/assets/041ab89f-db8f-43ff-9e32-3c5dd15a95f2)
 
 
+#######################################################################################################
+
+
+# ✅Complete Project Architecture:
+![architecture](https://github.com/user-attachments/assets/60a32cd2-4f0d-4412-b901-fc8ad80c0945)
+
+
+######################################################################################################
 
 ✅ Steps:
 # 1- First Create an EC2 instance on aws:
